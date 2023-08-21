@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quran Player</title>
+    <link rel="shortcut icon" href="#">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="player">
+            <div class="ayah">أضغط على الصورة لإستماع إليها</div>
+            <audio src="" class="quranPlayer" controls autoplay></audio>
+            <div class="buttons">
+                <div class="icons next"><i class="fas fa-forward"></i></div>
+                <div class="icons play"><i class="fas fa-play"></i></div>
+                <div class="icons prev"><i class="fas fa-backward"></i></div>
+            </div>
+        </div>
+        <div class="surahs">
+
+        </div>
+    </div>
+    <footer style="text-align: center;">
+        <p>&copy;<span id="year"></span> Khalifa Web & Mobile Dev. All rights reserved.</p>
+    </footer>    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
